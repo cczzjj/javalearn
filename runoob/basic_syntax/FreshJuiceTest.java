@@ -1,4 +1,4 @@
-package runoob;
+package runoob.basic_syntax;
 
 class FreshJuice {
     enum FreshJuiceSize {SMALL, MEDIUM, LARGE}

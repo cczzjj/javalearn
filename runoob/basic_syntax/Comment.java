@@ -1,4 +1,4 @@
-package runoob;
+package runoob.basic_syntax;
 
 public class Comment {
     /*
