@@ -13,6 +13,7 @@ public class HelloWorld extends HttpServlet {
     public void init() throws ServletException {
         // 执行必需的初始化
         message = "Hello World";
+        System.out.println("HelloWorld新建了！");
     }
 
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
