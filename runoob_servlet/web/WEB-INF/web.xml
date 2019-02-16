@@ -12,7 +12,6 @@
         <servlet-name>HelloWorld</servlet-name>
         <servlet-class>com.runoob.first_example.HelloWorld</servlet-class>
     </servlet>
-
     <servlet-mapping>
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/hello</url-pattern>
@@ -28,5 +27,17 @@
         <servlet-name>DisplayHeader</servlet-name>
         <!-- 访问的网址 -->
         <url-pattern>/TomcatTest/DisplayHeader</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>Refresh</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.runoob.server_response.Refresh</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Refresh</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/TomcatTest/Refresh</url-pattern>
     </servlet-mapping>
 </web-app>
