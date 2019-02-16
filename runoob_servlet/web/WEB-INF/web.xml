@@ -38,6 +38,15 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
+    <filter>
+        <filter-name>SiteHitCounter</filter-name>
+        <filter-class>com.runoob.hits_counter.SiteHitCounter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SiteHitCounter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+
     <servlet>
         <servlet-name>HelloWorld</servlet-name>
         <servlet-class>com.runoob.first_example.HelloWorld</servlet-class>
