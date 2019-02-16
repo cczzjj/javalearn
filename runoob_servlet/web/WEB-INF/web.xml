@@ -79,6 +79,18 @@
         <url-pattern>/TomcatTest/showError</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>HelloForm2</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.runoob.cookies_handling.HelloForm</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>HelloForm2</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/TomcatTest/HelloForm2</url-pattern>
+    </servlet-mapping>
+
     <!-- servlet 定义 -->
     <servlet>
         <servlet-name>ErrorHandler</servlet-name>
