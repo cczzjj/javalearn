@@ -40,4 +40,16 @@
         <!-- 访问的网址 -->
         <url-pattern>/TomcatTest/Refresh</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <!-- 类名 -->
+        <servlet-name>ShowError</servlet-name>
+        <!-- 所在的包 -->
+        <servlet-class>com.runoob.http_status_codes.ShowError</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ShowError</servlet-name>
+        <!-- 访问的网址 -->
+        <url-pattern>/TomcatTest/showError</url-pattern>
+    </servlet-mapping>
 </web-app>
